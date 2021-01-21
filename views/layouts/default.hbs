@@ -3,20 +3,26 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Team [The Resourceful Team] Website</title>
+  <title>Resourceful Team Events</title>
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
-<body>
+<body style="font-family: Arial">
   <div>
-      <h1>Welcome to [The Resourceful Team] application</h1>
+      <h1 style="background-color:dodgerblue">Resourceful Team Events</h1>
+      <div style="background-color:tomato">
+        <h2><i>No Original Content</i></h2>
+        <p>Post cool and neat events only.</p>
+        <br>
+      </div>
+      
     {{{body}}}
 </div>
 <div>
-  <h2>Add an event</h2>
+  <h2 style="background-color:turquoise">Add a New Event</h2>
     <form action="/event" method="post">
-       title: <input name="title" type="text" /> <br />
-       description: <input name="description" type="text" /> <br />
+       Event Title: <input name="title" type="text" /> <br />
+       Description: <input name="description" type="text" /> <br />
        <br />
         <input type="submit" name="submit" value="submit" />
     </form>
